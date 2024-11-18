@@ -1,0 +1,12 @@
+Bicycling 175 m
+croquet 75 l
+boxing 450 h
+basketball 250 h
+hockey 252 h
+golf 120 l
+jogging 200 m
+football 270 h
+soccer 285 h
+swimming 320 h
+walking,3.5mph 70 l
+power_lifting 160 m
