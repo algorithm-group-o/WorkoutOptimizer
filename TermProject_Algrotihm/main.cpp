@@ -94,12 +94,9 @@ void calculate_schedule(workOut* workout, int size, int available_time, float ta
     }
 
     // 결과 출력
-    if (dp[max_sessions] == target_calories) {
-        printf("운동 세션으로 목표 칼로리를 달성할 수 없습니다.\n");
-    }
-    else {
-        printf("소모한 칼로리: %.2f, 남은 칼로리: %.2f\n", target_calories - dp[max_sessions], dp[max_sessions]);
-    }
+ 
+    
+      printf("소모한 칼로리: %.2f, 남은 칼로리: %.2f\n", target_calories - dp[max_sessions], dp[max_sessions]);
 
     free(dp);
     free(used);
